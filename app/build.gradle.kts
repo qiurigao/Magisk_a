@@ -78,10 +78,10 @@ dependencies {
     implementation("dev.rikka.rikkax.recyclerview:recyclerview-ktx:1.3.1")
     implementation("io.noties.markwon:core:4.6.2")
 
-    val vLibsu = "5.0.2"
-    implementation("com.github.topjohnwu.libsu:core:${vLibsu}")
-    implementation("com.github.topjohnwu.libsu:service:${vLibsu}")
-    implementation("com.github.topjohnwu.libsu:nio:${vLibsu}")
+    val vLibsu = "0.2"
+    implementation("com.github.qiurigao.libsu:core:${vLibsu}")
+    implementation("com.github.qiurigao.libsu:service:${vLibsu}")
+    implementation("com.github.qiurigao.libsu:nio:${vLibsu}")
 
     val vRetrofit = "2.9.0"
     implementation("com.squareup.retrofit2:retrofit:${vRetrofit}")
